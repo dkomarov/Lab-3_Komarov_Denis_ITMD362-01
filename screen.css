@@ -239,29 +239,59 @@ textarea {
 /*Responsive Design
 	Smaller screens*/
 @media screen and (min-width: 320px) {
-	form {
+	body {
 		text-align: center;
+		background-color: black;
+		color: white;
+	}
+	h1 { 
+		font-size: 19pt;
+		margin: 0.5em;
+		}
+	p {
+		margin: 0.25em;
 	}
 	label { 
-	display: inline-block;
-	color: purple;
-	background-color: cyan;
-	margin: auto;
+	display: block;
+	color: white;
+	background-color: gray;
+	margin: 1em;
 	font-size: 12pt;
   }
-  div { 
-  display: inline;
-  }
+  td {
+  	display: inline;
+  	position: center;
+  	margin: auto;
+  	}
 }
 
 /*Responsive Design
 	Larger screens*/
-@media screen and (min-width: 960px) {
-	form {
+@media screen and (min-width: 520px) {
+	body {
+		font-family: Calibri;
 		text-align: left;
+		background-color: green;
+		color: cyan;
+		display: inline;
+	}
+	h1 { 
+		font-size: 25pt;
+		margin: 1em;
+		}
+	p {
+		font-size: 15pt;
+		margin: 2em;
 	}
 	label { 
+	color: cyan;
 	display: inline;
-	color: red;
+	background-color: transparent;
+	margin: 1.5em;
+	font-size: 18pt;
+  }
+  #submit_button {
+  	display: block;
+  	position: center;
   }
 }
