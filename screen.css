@@ -237,7 +237,7 @@ textarea {
 /*START of PERSONAL STYLING*/
 
 /*Responsive Design
-	Smaller screens*/
+	Smartphones*/
 @media screen and (min-width: 320px) {
 	body {
 		text-align: center;
@@ -266,8 +266,8 @@ textarea {
 }
 
 /*Responsive Design
-	Larger screens*/
-@media screen and (min-width: 520px) {
+	Tablets*/
+@media screen and (min-width: 600px) {
 	body {
 		font-family: Calibri;
 		text-align: left;
@@ -292,6 +292,38 @@ textarea {
   }
   #submit_button {
   	margin: 0.5em;
+  	display: block;
+  	position: center;
+  }
+}
+
+/*Responsive Design
+	Desktops*/
+@media screen and (min-width: 960px) {
+	body {
+		font-family: Calibri;
+		text-align: left;
+		background-color: white;
+		color: red;
+		display: inline;
+	}
+	h1 { 
+		font-size: 30pt;
+		margin: 1.5em;
+		}
+	p {
+		font-size: 20pt;
+		margin: 2.5em;
+	}
+	label { 
+	color: red;
+	display: inline;
+	background-color: transparent;
+	margin: 2em;
+	font-size: 18pt;
+  }
+  #submit_button {
+  	margin: 1em;
   	display: block;
   	position: center;
   }
