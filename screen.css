@@ -291,6 +291,7 @@ textarea {
 	font-size: 18pt;
   }
   #submit_button {
+  	margin: 0.5em;
   	display: block;
   	position: center;
   }
