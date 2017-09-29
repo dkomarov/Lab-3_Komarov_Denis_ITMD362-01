@@ -244,25 +244,36 @@ textarea {
 		background-color: black;
 		color: white;
 	}
+	
 	h1 { 
 		font-size: 19pt;
 		margin: 0.5em;
-		}
+	}
+		
 	p {
 		margin: 0.25em;
 	}
+	
 	label { 
-	display: block;
-	color: white;
-	background-color: gray;
-	margin: 1em;
-	font-size: 12pt;
+		display: block;
+		color: white;
+		background-color: gray;
+		margin: 1em;
+		font-size: 12pt;
   }
+  
   td {
   	display: inline;
   	position: center;
   	margin: auto;
-  	}
+  }
+  	
+	#submitButton {
+  	margin: 0.5em;
+  	display: block;
+  	position: center;
+  }
+  
 }
 
 /*Responsive Design
@@ -275,26 +286,31 @@ textarea {
 		color: cyan;
 		display: inline;
 	}
+	
 	h1 { 
 		font-size: 25pt;
 		margin: 1em;
-		}
+	}
+	
 	p {
 		font-size: 15pt;
 		margin: 2em;
 	}
+	
 	label { 
-	color: cyan;
-	display: inline;
-	background-color: transparent;
-	margin: 1.5em;
-	font-size: 18pt;
+		color: cyan;
+		display: inline;
+		background-color: transparent;
+		margin: 1.5em;
+		font-size: 18pt;
   }
-  #submit_button {
+  
+  #submitButton {
   	margin: 0.5em;
   	display: block;
   	position: center;
   }
+  
 }
 
 /*Responsive Design
@@ -307,22 +323,26 @@ textarea {
 		color: red;
 		display: inline;
 	}
+	
 	h1 { 
 		font-size: 30pt;
 		margin: 1.5em;
-		}
+	}
+		
 	p {
 		font-size: 20pt;
 		margin: 2.5em;
 	}
+	
 	label { 
-	color: red;
-	display: inline;
-	background-color: transparent;
-	margin: 2em;
-	font-size: 18pt;
+		color: red;
+		display: inline;
+		background-color: transparent;
+		margin: 2em;
+		font-size: 18pt;
   }
-  #submit_button {
+  
+  #submitButton {
   	margin: 1em;
   	display: block;
   	position: center;
